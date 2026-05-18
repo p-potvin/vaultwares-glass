@@ -1,16 +1,16 @@
 {
-  "name": "vault-flows",
+  "name": "vaultwares-glass",
   "version": "1.0.0",
-  "description": "VaultWares AI Workflow GUI + local runtime bridge for multimodal pipelines",
+  "description": "VaultWares glass component library — React + WinUI3 acrylic/glass UI primitives",
   "type": "module",
-  "main": "dist/glass-ui.umd.cjs",
-  "module": "dist/glass-ui.js",
-  "types": "dist/glass-ui.d.ts",
+  "main": "dist/vaultwares-glass.umd.cjs",
+  "module": "dist/vaultwares-glass.js",
+  "types": "dist/vaultwares-glass.d.ts",
   "exports": {
     ".": {
-      "import": "./dist/glass-ui.js",
-      "require": "./dist/glass-ui.umd.cjs",
-      "types": "./dist/glass-ui.d.ts"
+      "import": "./dist/vaultwares-glass.js",
+      "require": "./dist/vaultwares-glass.umd.cjs",
+      "types": "./dist/vaultwares-glass.d.ts"
     }
   },
   "files": [
@@ -34,10 +34,10 @@
   ],
   "author": "VaultWares",
   "license": "GPL-3.0",
-  "homepage": "https://github.com/p-potvin/vault-flows",
+  "homepage": "https://github.com/p-potvin/vaultwares-glass",
   "repository": {
     "type": "git",
-    "url": "https://github.com/p-potvin/vault-flows.git"
+    "url": "https://github.com/p-potvin/vaultwares-glass.git"
   },
   "peerDependencies": {
     "react": "^18.0.0 || ^19.0.0",

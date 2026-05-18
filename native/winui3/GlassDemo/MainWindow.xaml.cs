@@ -12,7 +12,7 @@ public sealed partial class MainWindow : Window
     public MainWindow()
     {
         InitializeComponent();
-        Title = "glass-ui · WinUI 3 Glass Demo";
+        Title = "VaultWares Glass · WinUI 3 Glass Demo";
         ExtendsContentIntoTitleBar = true;
 
         // Window sizing

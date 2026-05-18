@@ -1,7 +1,7 @@
-# glass-ui · Native Demos
+# vaultwares-glass · Native Demos
 
 Platform-native glass / transparency effects that complement the web-based
-`glass-ui` React library.
+`vaultwares-glass` React library.
 
 ---
 

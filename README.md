@@ -1,53 +1,48 @@
 <img src="https://raw.githubusercontent.com/p-potvin/vaultwares-docs/main/logo/vaultwares-logo.svg">
 
-# vault-flows
+# vaultwares-glass
 
-**AI Workflow GUI & Local Runtime Bridge**  
+**Glass / Acrylic UI Component Library**
 **Part of the VaultWares Ecosystem** • <a href="https://docs.vaultwares.com">docs.vaultwares.com</a> • <a href="https://vaultwares.com">vaultwares.com</a>
 
-**Frontend web app (Vite + React) that provides a beautiful GUI for creating, managing, and executing AI model workflows from vaultwares-pipelines (image enhancements, multi-modal models, conversational AI, digital twins, LoRA training, I2V/T2V, etc.). Includes local runtime bridge for ComfyUI/FaceFusion scanning and execution.**
+**A React component library that provides VaultWares glass / acrylic / mica UI primitives for web, plus native demos (Python + WinUI 3) showing equivalent platform effects on Windows.**
 
-Live demo: https://vault-flows.vercel.app
+Live preview: https://vaultwares-glass-preview.vercel.app
 
 ## Features
-- Drag-and-drop workflow builder with real-time preview
-- Local-first execution mode (no backend required for demos)
-- Local runtime bridge for scanning ComfyUI models and running FaceFusion flows
-- Multi-agent coordination prototype (Redis-based)
-- Full sub-module integration (vault-themes, vaultwares-agentciation, facefusion)
-- Vercel deployment ready + local HTTPS dev scripts
-- Playwright E2E tests + linting
+- React + Vite library mode (UMD + ESM + d.ts)
+- Glass, acrylic, and mica surfaces with platform-native fallbacks
+- Theme tokens sourced from `vault-themes`
+- Native demos: Python (ctypes / DWM) and WinUI 3 (Windows App SDK)
+- Tailwind CSS v4 ready
+- Playwright smoke tests
 
 ## Quick Start
 
 ```bash
-git clone https://github.com/p-potvin/vault-flows.git
-cd vault-flows
+git clone https://github.com/p-potvin/vaultwares-glass.git
+cd vaultwares-glass
 git submodule update --init --recursive
 npm install
-cp .env.example .env
 npm run dev
 ```
 
-For local bridge (ComfyUI + FaceFusion):
+To build the library:
 
 ```bash
-npm run bridge:local
+npm run build
 ```
+
+To run the native demos, see [`native/README.md`](native/README.md).
 
 ## Architecture & Agent Integration
 Fully synchronized with the VaultWares Agent Knowledge Dissemination System.
 - Agents automatically pull latest branding and guidelines from: → https://raw.githubusercontent.com/p-potvin/vaultwares-docs/main/agents/knowledge-dissemination.mdx
-- Python Redis agents in agents/ and vaultwares-agentciation submodule coordinate workflows.
 - See full details: [Agent Knowledge System](https://raw.githubusercontent.com/p-potvin/vaultwares-docs/main/agents/knowledge-dissemination.mdx)
 
-## Environment Variables
-- `VITE_API_URL` → leave empty for local demo/fallback mode
-
 ## Privacy & Security
-- Local-first by default
 - No telemetry or external tracking
-- Encrypted local storage options
+- Local-first by default
 - Full threat model in central VaultWares docs
 
 ## Contributing

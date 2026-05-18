@@ -1,5 +1,5 @@
 """
-glass-ui · Native Windows Glass Demo (Python)
+VaultWares Glass · Native Windows Glass Demo (Python)
 
 Demonstrates real system-level glass / acrylic effects using the Windows
 DWM (Desktop Window Manager) composition APIs.
@@ -149,7 +149,7 @@ class GlassDemo(tk.Tk):
 
     def __init__(self) -> None:
         super().__init__()
-        self.title("glass-ui · Native Glass Demo")
+        self.title("VaultWares Glass · Native Glass Demo")
         self.geometry("640x520")
         self.configure(bg=self.BASE03)
         self.minsize(480, 400)
@@ -166,7 +166,7 @@ class GlassDemo(tk.Tk):
         # Title
         tk.Label(
             self,
-            text="glass-ui  ·  Windows Native Glass",
+            text="VaultWares Glass  ·  Windows Native Glass",
             font=("Segoe UI", 18, "bold"),
             fg=self.BASE1,
             bg=self.BASE03,

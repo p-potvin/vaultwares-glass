@@ -1,3 +1,3 @@
-[submodule "vault-themes"]
-	path = vault-themes
-	url = https://github.com/p-potvin/vault-themes.git
+[submodule "vaultwares-themes"]
+	path = vaultwares-themes
+	url = https://github.com/p-potvin/vaultwares-themes.git

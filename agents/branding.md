@@ -1,4 +1,4 @@
-# Agent Branding Reference (local mirror for vault-flows)
+# Agent Branding Reference (local mirror for vaultwares-glass)
 
 This file is a local copy for agents that cannot reach the internet.
 
