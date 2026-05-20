@@ -12,7 +12,7 @@ Live preview: https://vaultwares-glass-preview.vercel.app
 ## Features
 - React + Vite library mode (UMD + ESM + d.ts)
 - Glass, acrylic, and mica surfaces with platform-native fallbacks
-- Theme tokens sourced from `vault-themes`
+- Theme tokens sourced from `vaultwares-themes`
 - Native demos: Python (ctypes / DWM) and WinUI 3 (Windows App SDK)
 - Tailwind CSS v4 ready
 - Playwright smoke tests
